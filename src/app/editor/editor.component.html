@@ -1,0 +1,9 @@
+<div class="editor" id="content" #content>
+<input class="editor-input" type="text" [(ngModel)]="editor.text"/>
+  <br>
+  <div class="editor-return">
+    <div class="editor-return-pinyin">{{pinyin(editor.text)}}</div>
+    <div class="editor-return-text">{{editor.text}}</div>
+</div>
+<!-- <button (click)="generatePDF()">Download</button> -->
+</div>
